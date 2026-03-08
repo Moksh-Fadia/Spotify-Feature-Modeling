@@ -41,8 +41,8 @@ A binary classifier trained using **Random Forest** to predict whether a song is
 - Enter a song name
 - The model pulls its features, predicts whether it's a **hit or flop**, and shows the **confidence score**
 - Handles:
-  - Multiple versions (artist disambiguation)
-  - Song not found gracefully
+  - Multiple versions 
+  - Song not found 
 
 ---  
 

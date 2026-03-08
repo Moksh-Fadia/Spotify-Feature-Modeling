@@ -1,6 +1,6 @@
 # 🎧 Spotify Music Analysis & Machine Learning Project
 
-A multi-feature music ML web app built with **Streamlit**, using Spotify audio features. It includes **mood-based clustering**, a **content-based recommender**, **genre classification evaluation**, and **hit/flop prediction** — all packed into an interactive dashboard.
+A multi-feature music ML web app built with **Streamlit**, using Spotify audio features. It includes **mood-based clustering**, a **content-based recommender**, **genre classification evaluation**, and **hit/flop prediction** — all integrated into an interactive dashboard.
 
 ---
 

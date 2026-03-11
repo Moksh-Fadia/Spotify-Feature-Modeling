@@ -14,6 +14,10 @@ Uses **KMeans** clustering with audio features like `valence`, `energy`, `dancea
 - Assigns descriptive labels like `"Chill"`, `"High Energy"`, `"Sad"`, etc.
 - Visualized using scatter plots (valence vs energy) for interpretability
 
+#### Streamlit Dashboard
+
+![Dashboard1](streamlit_ss/spot_ss1.png)
+
 ---
 
 ### 2. 🤝 Content-Based Song Recommender
@@ -26,6 +30,10 @@ Given a song you like (track + artist), the system:
   - Song not found
   - Duplicates (filtered out)
   - Multiple versions of a track
+
+#### Streamlit Dashboard
+
+![Dashboard2](streamlit_ss/spot_ss2.png)  
 
 ---
 
@@ -43,6 +51,10 @@ A binary classifier trained using **Random Forest** to predict whether a song is
 - Handles:
   - Multiple versions (artist disambiguation)
   - Song not found gracefully
+
+#### Streamlit Dashboard
+
+![Dashboard3](streamlit_ss/spot_ss3.png)  
 
 ---  
 

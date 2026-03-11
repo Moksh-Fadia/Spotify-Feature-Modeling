@@ -1,12 +1,12 @@
-# 🎧 Spotify Music Analysis & Machine Learning Project
+# Spotify Music Analytics & Recommendation System
 
-A multi-feature music ML web app built with **Streamlit**, using Spotify audio features. It includes **mood-based clustering**, a **content-based recommender**, **genre classification evaluation**, and **hit/flop prediction** — all packed into an interactive dashboard.
+A multi-feature music ML web app built with **Streamlit**, using Spotify audio features. It includes **mood-based clustering**, a **content-based recommender**, **genre classification evaluation**, and **hit/flop prediction** — all integrated into an interactive dashboard.
 
 ---
 
-## 🔍 Features
+## Features
 
-### 1. 🎭 Mood-Based Clustering
+### 1. Mood-Based Clustering
 
 Uses **KMeans** clustering with audio features like `valence`, `energy`, `danceability`, etc. to group songs into different **mood clusters**.
 
@@ -20,7 +20,7 @@ Uses **KMeans** clustering with audio features like `valence`, `energy`, `dancea
 
 ---
 
-### 2. 🤝 Content-Based Song Recommender
+### 2. Content-Based Song Recommender
 
 Given a song you like (track + artist), the system:
 
@@ -37,7 +37,7 @@ Given a song you like (track + artist), the system:
 
 ---
 
-### 3. 📈 Hit/Flop Classification
+### 3. Hit/Flop Classification
 
 A binary classifier trained using **Random Forest** to predict whether a song is a **Hit (popularity ≥ 60)** or a **Flop**.
 
@@ -45,12 +45,12 @@ A binary classifier trained using **Random Forest** to predict whether a song is
   - Full classification report 
   - Probability of being a "Hit"
 
-#### 🎯 Bonus: Hit Guessing Feature
+#### Hit Guessing Feature
 - Enter a song name
 - The model pulls its features, predicts whether it's a **hit or flop**, and shows the **confidence score**
 - Handles:
-  - Multiple versions (artist disambiguation)
-  - Song not found gracefully
+  - Multiple versions 
+  - Song not found 
 
 #### Streamlit Dashboard
 
@@ -58,7 +58,7 @@ A binary classifier trained using **Random Forest** to predict whether a song is
 
 ---  
 
-### 4. 🎵 Genre Classification (Model Evaluation Only)
+### 4. Genre Classification (Model Evaluation Only)
 
 Performs genre classification using **XGBoost** on 9 popular genres including:
 ['alternative', 'ambient', 'chill', 'dubstep', 'edm', 'house', 'indie', 'pop', 'sad']
